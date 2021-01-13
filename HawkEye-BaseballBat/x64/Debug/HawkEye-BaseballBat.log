@@ -1,0 +1,133 @@
+﻿  HawkEye-BaseballBat.cpp
+C:\Yolo_v4\darknet\include\yolo_v2_class.hpp(76,15): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Yolo_v4\darknet\include\yolo_v2_class.hpp(104,1): warning C4244: '*=': conversion from 'float' to 'unsigned int', possible loss of data
+C:\Yolo_v4\darknet\include\yolo_v2_class.hpp(152,1): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Yolo_v4\darknet\include\yolo_v2_class.hpp(635,1): warning C4267: 'argument': conversion from 'size_t' to '_Tp', possible loss of data
+          with
+          [
+              _Tp=int
+          ]
+C:\Yolo_v4\darknet\include\yolo_v2_class.hpp(658,1): warning C4267: 'argument': conversion from 'size_t' to '_Tp', possible loss of data
+          with
+          [
+              _Tp=int
+          ]
+C:\Yolo_v4\darknet\include\yolo_v2_class.hpp(660,1): warning C4267: 'argument': conversion from 'size_t' to '_Tp', possible loss of data
+          with
+          [
+              _Tp=int
+          ]
+C:\Yolo_v4\darknet\include\yolo_v2_class.hpp(676,1): warning C4267: 'argument': conversion from 'size_t' to '_Tp', possible loss of data
+          with
+          [
+              _Tp=int
+          ]
+C:\Yolo_v4\darknet\include\yolo_v2_class.hpp(746,37): warning C4244: '=': conversion from 'unsigned int' to '_Tp', possible loss of data
+          with
+          [
+              _Tp=float
+          ]
+C:\Yolo_v4\darknet\include\yolo_v2_class.hpp(747,37): warning C4244: '=': conversion from 'unsigned int' to '_Tp', possible loss of data
+          with
+          [
+              _Tp=float
+          ]
+C:\Yolo_v4\darknet\include\yolo_v2_class.hpp(750,37): warning C4244: '=': conversion from 'unsigned int' to '_Tp', possible loss of data
+          with
+          [
+              _Tp=float
+          ]
+C:\Yolo_v4\darknet\include\yolo_v2_class.hpp(751,37): warning C4244: '=': conversion from 'unsigned int' to '_Tp', possible loss of data
+          with
+          [
+              _Tp=float
+          ]
+C:\Yolo_v4\darknet\include\yolo_v2_class.hpp(760,36): warning C4244: '=': conversion from 'unsigned int' to '_Tp', possible loss of data
+          with
+          [
+              _Tp=float
+          ]
+C:\Yolo_v4\darknet\include\yolo_v2_class.hpp(761,36): warning C4244: '=': conversion from 'unsigned int' to '_Tp', possible loss of data
+          with
+          [
+              _Tp=float
+          ]
+C:\Yolo_v4\darknet\include\yolo_v2_class.hpp(762,36): warning C4244: '=': conversion from 'unsigned int' to '_Tp', possible loss of data
+          with
+          [
+              _Tp=float
+          ]
+C:\Yolo_v4\darknet\include\yolo_v2_class.hpp(763,36): warning C4244: '=': conversion from 'unsigned int' to '_Tp', possible loss of data
+          with
+          [
+              _Tp=float
+          ]
+C:\Yolo_v4\darknet\include\yolo_v2_class.hpp(781,36): warning C4244: '=': conversion from '_Tp' to 'unsigned int', possible loss of data
+          with
+          [
+              _Tp=float
+          ]
+C:\Yolo_v4\darknet\include\yolo_v2_class.hpp(782,36): warning C4244: '=': conversion from '_Tp' to 'unsigned int', possible loss of data
+          with
+          [
+              _Tp=float
+          ]
+C:\Yolo_v4\darknet\include\yolo_v2_class.hpp(783,36): warning C4244: '=': conversion from '_Tp' to 'unsigned int', possible loss of data
+          with
+          [
+              _Tp=float
+          ]
+C:\Yolo_v4\darknet\include\yolo_v2_class.hpp(784,36): warning C4244: '=': conversion from '_Tp' to 'unsigned int', possible loss of data
+          with
+          [
+              _Tp=float
+          ]
+C:\Yolo_v4\darknet\include\yolo_v2_class.hpp(821,1): warning C4305: '=': truncation from 'double' to '_Tp'
+          with
+          [
+              _Tp=float
+          ]
+C:\Yolo_v4\darknet\include\yolo_v2_class.hpp(822,1): warning C4305: '=': truncation from 'double' to '_Tp'
+          with
+          [
+              _Tp=float
+          ]
+C:\Yolo_v4\darknet\include\yolo_v2_class.hpp(823,1): warning C4305: '=': truncation from 'double' to '_Tp'
+          with
+          [
+              _Tp=float
+          ]
+C:\Yolo_v4\darknet\include\yolo_v2_class.hpp(824,1): warning C4305: '=': truncation from 'double' to '_Tp'
+          with
+          [
+              _Tp=float
+          ]
+C:\Yolo_v4\darknet\include\yolo_v2_class.hpp(825,1): warning C4305: '=': truncation from 'double' to '_Tp'
+          with
+          [
+              _Tp=float
+          ]
+C:\Yolo_v4\darknet\include\yolo_v2_class.hpp(826,1): warning C4305: '=': truncation from 'double' to '_Tp'
+          with
+          [
+              _Tp=float
+          ]
+C:\Yolo_v4\darknet\include\yolo_v2_class.hpp(862,102): warning C4244: '=': conversion from '_Rep' to 'float', possible loss of data
+          with
+          [
+              _Rep=double
+          ]
+C:\Yolo_v4\darknet\include\yolo_v2_class.hpp(874,28): warning C4244: 'initializing': conversion from '_Rep' to 'float', possible loss of data
+          with
+          [
+              _Rep=double
+          ]
+C:\Yolo_v4\darknet\include\yolo_v2_class.hpp(878,50): warning C4018: '>': signed/unsigned mismatch
+C:\Yolo_v4\darknet\include\yolo_v2_class.hpp(879,50): warning C4018: '>': signed/unsigned mismatch
+C:\Yolo_v4\darknet\include\yolo_v2_class.hpp(905,87): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
+C:\Yolo_v4\darknet\include\yolo_v2_class.hpp(905,75): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
+C:\Yolo_v4\darknet\include\yolo_v2_class.hpp(905,63): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
+C:\Yolo_v4\darknet\include\yolo_v2_class.hpp(905,51): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
+C:\Yolo_v4\darknet\include\yolo_v2_class.hpp(911,1): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Yolo_v4\darknet\include\yolo_v2_class.hpp(936,31): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+  HawkEye-BaseballBat.vcxproj -> C:\Users\Work\source\repos\HawkEye-BaseballBat\x64\Debug\HawkEye-BaseballBat.exe

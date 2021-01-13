@@ -1,0 +1,3829 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "The enum type 'cv::NormTypes' is unscoped. Prefer 'enum class' over 'enum' (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/lib/opencv/build/include/opencv2/core/base.hpp"
+                },
+                "region": {
+                  "startLine": 384,
+                  "startColumn": 39,
+                  "endLine": 384,
+                  "endColumn": 39
+                }
+              }
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "The enum type 'cv::AccessFlag' is unscoped. Prefer 'enum class' over 'enum' (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/lib/opencv/build/include/opencv2/core/mat.hpp"
+                },
+                "region": {
+                  "startLine": 66,
+                  "startColumn": 1,
+                  "endLine": 66,
+                  "endColumn": 1
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??7cv@@YA_NAEBW4AccessFlag@0@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "The enum type 'cv::debug_build_guard::_InputArray::KindFlag' is unscoped. Prefer 'enum class' over 'enum' (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/lib/opencv/build/include/opencv2/core/mat.hpp"
+                },
+                "region": {
+                  "startLine": 262,
+                  "startColumn": 1,
+                  "endLine": 262,
+                  "endColumn": 1
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??7debug_build_guard@cv@@YA_NAEBW4KindFlag@_InputArray@01@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "The enum type 'cv::UMatData::MemoryFlag' is unscoped. Prefer 'enum class' over 'enum' (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/lib/opencv/build/include/opencv2/core/mat.hpp"
+                },
+                "region": {
+                  "startLine": 569,
+                  "startColumn": 1,
+                  "endLine": 569,
+                  "endColumn": 1
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??7cv@@YA_NAEBW4MemoryFlag@UMatData@0@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/lib/opencv/build/include/opencv2/core/mat.inl.hpp"
+                },
+                "region": {
+                  "startLine": 565,
+                  "startColumn": 18,
+                  "endLine": 565,
+                  "endColumn": 18
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0Mat@cv@@QEAA@HHHPEAX_K@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/lib/opencv/build/include/opencv2/core/mat.inl.hpp"
+                },
+                "region": {
+                  "startLine": 565,
+                  "startColumn": 18,
+                  "endLine": 565,
+                  "endColumn": 18
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0Mat@cv@@QEAA@HHHPEAX_K@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/lib/opencv/build/include/opencv2/core/mat.inl.hpp"
+                },
+                "region": {
+                  "startLine": 594,
+                  "startColumn": 18,
+                  "endLine": 594,
+                  "endColumn": 18
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0Mat@cv@@QEAA@V?$Size_@H@1@HPEAX_K@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/lib/opencv/build/include/opencv2/core/mat.inl.hpp"
+                },
+                "region": {
+                  "startLine": 594,
+                  "startColumn": 18,
+                  "endLine": 594,
+                  "endColumn": 18
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0Mat@cv@@QEAA@V?$Size_@H@1@HPEAX_K@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C26439",
+          "message": {
+            "text": "This kind of function may not throw. Declare it 'noexcept' (f.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/lib/opencv/build/include/opencv2/core/mat.inl.hpp"
+                },
+                "region": {
+                  "startLine": 1403,
+                  "startColumn": 6,
+                  "endLine": 1403,
+                  "endColumn": 6
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0Mat@cv@@QEAA@$$QEAV01@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C26439",
+          "message": {
+            "text": "This kind of function may not throw. Declare it 'noexcept' (f.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/lib/opencv/build/include/opencv2/core/mat.inl.hpp"
+                },
+                "region": {
+                  "startLine": 1428,
+                  "startColumn": 11,
+                  "endLine": 1428,
+                  "endColumn": 11
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??4Mat@cv@@QEAAAEAV01@$$QEAV01@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'cv::MatStep::buf' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/lib/opencv/build/include/opencv2/core/mat.inl.hpp"
+                },
+                "region": {
+                  "startLine": 1536,
+                  "startColumn": 10,
+                  "endLine": 1536,
+                  "endColumn": 10
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0MatStep@cv@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": [],
+          "properties": {
+            "targetSymbol": "cv::MatStep::buf"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'cv::MatStep::buf' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/lib/opencv/build/include/opencv2/core/mat.inl.hpp"
+                },
+                "region": {
+                  "startLine": 1542,
+                  "startColumn": 10,
+                  "endLine": 1542,
+                  "endColumn": 10
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0MatStep@cv@@QEAA@_K@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": [],
+          "properties": {
+            "targetSymbol": "cv::MatStep::buf"
+          }
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/lib/opencv/build/include/opencv2/core/mat.inl.hpp"
+                },
+                "region": {
+                  "startLine": 2218,
+                  "startColumn": 12,
+                  "endLine": 2218,
+                  "endColumn": 12
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?elemSize@SparseMat@cv@@QEBA_KXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/lib/opencv/build/include/opencv2/core/mat.inl.hpp"
+                },
+                "region": {
+                  "startLine": 2218,
+                  "startColumn": 12,
+                  "endLine": 2218,
+                  "endColumn": 12
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?elemSize@SparseMat@cv@@QEBA_KXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "The enum type 'cv::UMatUsageFlags' is unscoped. Prefer 'enum class' over 'enum' (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/lib/opencv/build/include/opencv2/core/mat.inl.hpp"
+                },
+                "region": {
+                  "startLine": 3624,
+                  "startColumn": 7,
+                  "endLine": 3624,
+                  "endColumn": 7
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0UMat@cv@@QEAA@W4UMatUsageFlags@1@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C26439",
+          "message": {
+            "text": "This kind of function may not throw. Declare it 'noexcept' (f.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/lib/opencv/build/include/opencv2/core/mat.inl.hpp"
+                },
+                "region": {
+                  "startLine": 3911,
+                  "startColumn": 7,
+                  "endLine": 3911,
+                  "endColumn": 7
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0UMat@cv@@QEAA@$$QEAV01@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C26439",
+          "message": {
+            "text": "This kind of function may not throw. Declare it 'noexcept' (f.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/lib/opencv/build/include/opencv2/core/mat.inl.hpp"
+                },
+                "region": {
+                  "startLine": 3935,
+                  "startColumn": 13,
+                  "endLine": 3935,
+                  "endColumn": 13
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??4UMat@cv@@QEAAAEAV01@$$QEAV01@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "The enum type 'cv::Formatter::FormatType' is unscoped. Prefer 'enum class' over 'enum' (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/lib/opencv/build/include/opencv2/core/operations.hpp"
+                },
+                "region": {
+                  "startLine": 435,
+                  "startColumn": 16,
+                  "endLine": 435,
+                  "endColumn": 16
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?format@cv@@YA?AU?$Ptr@VFormatted@cv@@@1@AEBV_InputArray@debug_build_guard@1@W4FormatType@Formatter@1@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/lib/opencv/build/include/opencv2/core/utility.hpp"
+                },
+                "region": {
+                  "startLine": 577,
+                  "startColumn": 61,
+                  "endLine": 577,
+                  "endColumn": 61
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?getElemSize@cv@@YA_KH@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/lib/opencv/build/include/opencv2/core/utility.hpp"
+                },
+                "region": {
+                  "startLine": 577,
+                  "startColumn": 61,
+                  "endLine": 577,
+                  "endColumn": 61
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?getElemSize@cv@@YA_KH@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C26439",
+          "message": {
+            "text": "This kind of function may not throw. Declare it 'noexcept' (f.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/lib/opencv/build/include/opencv2/core/async.hpp"
+                },
+                "region": {
+                  "startLine": 73,
+                  "startColumn": 5,
+                  "endLine": 73,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0AsyncArray@cv@@QEAA@$$QEAV01@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'cv::dnn::dnn4_v20200310::DictValue::<unnamed-tag>::ps' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/lib/opencv/build/include/opencv2/dnn/dnn.inl.hpp"
+                },
+                "region": {
+                  "startLine": 249,
+                  "startColumn": 19,
+                  "endLine": 249,
+                  "endColumn": 19
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0DictValue@dnn4_v20200310@dnn@cv@@QEAA@AEBU0123@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": [],
+          "properties": {
+            "targetSymbol": "cv::dnn::dnn4_v20200310::DictValue::<unnamed-tag>::ps"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'cv::dnn::dnn4_v20200310::DictValue::<unnamed-tag>::pv' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/lib/opencv/build/include/opencv2/dnn/dnn.inl.hpp"
+                },
+                "region": {
+                  "startLine": 249,
+                  "startColumn": 19,
+                  "endLine": 249,
+                  "endColumn": 19
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0DictValue@dnn4_v20200310@dnn@cv@@QEAA@AEBU0123@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": [],
+          "properties": {
+            "targetSymbol": "cv::dnn::dnn4_v20200310::DictValue::<unnamed-tag>::pv"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'cv::dnn::dnn4_v20200310::DictValue::<unnamed-tag>::pd' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/lib/opencv/build/include/opencv2/dnn/dnn.inl.hpp"
+                },
+                "region": {
+                  "startLine": 249,
+                  "startColumn": 19,
+                  "endLine": 249,
+                  "endColumn": 19
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0DictValue@dnn4_v20200310@dnn@cv@@QEAA@AEBU0123@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": [],
+          "properties": {
+            "targetSymbol": "cv::dnn::dnn4_v20200310::DictValue::<unnamed-tag>::pd"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'cv::dnn::dnn4_v20200310::DictValue::<unnamed-tag>::pi' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/lib/opencv/build/include/opencv2/dnn/dnn.inl.hpp"
+                },
+                "region": {
+                  "startLine": 249,
+                  "startColumn": 19,
+                  "endLine": 249,
+                  "endColumn": 19
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0DictValue@dnn4_v20200310@dnn@cv@@QEAA@AEBU0123@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": [],
+          "properties": {
+            "targetSymbol": "cv::dnn::dnn4_v20200310::DictValue::<unnamed-tag>::pi"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'cvflann::UntypedMatrix::type' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/lib/opencv/build/include/opencv2/flann/matrix.h"
+                },
+                "region": {
+                  "startLine": 97,
+                  "startColumn": 5,
+                  "endLine": 97,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0UntypedMatrix@cvflann@@QEAA@PEAXJJ@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": [],
+          "properties": {
+            "targetSymbol": "cvflann::UntypedMatrix::type"
+          }
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "The enum type 'cvflann::flann_datatype_t' is unscoped. Prefer 'enum class' over 'enum' (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/lib/opencv/build/include/opencv2/flann/saving.h"
+                },
+                "region": {
+                  "startLine": 51,
+                  "startColumn": 58,
+                  "endLine": 51,
+                  "endColumn": 65
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?type@?$Datatype@D@cvflann@@SA?AW4flann_datatype_t@2@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "The enum type 'cvflann::flann_algorithm_t' is unscoped. Prefer 'enum class' over 'enum' (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/lib/opencv/build/include/opencv2/flann/kdtree_index.h"
+                },
+                "region": {
+                  "startLine": 59,
+                  "startColumn": 32,
+                  "endLine": 59,
+                  "endColumn": 32
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0KDTreeIndexParams@cvflann@@QEAA@H@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "The enum type 'cvflann::flann_centers_init_t' is unscoped. Prefer 'enum class' over 'enum' (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/lib/opencv/build/include/opencv2/flann/kmeans_index.h"
+                },
+                "region": {
+                  "startLine": 59,
+                  "startColumn": 5,
+                  "endLine": 59,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0KMeansIndexParams@cvflann@@QEAA@HHW4flann_centers_init_t@1@M@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/lib/opencv/build/include/opencv2/flann/lsh_table.h"
+                },
+                "region": {
+                  "startLine": 359,
+                  "startColumn": 30,
+                  "endLine": 359,
+                  "endColumn": 45
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0?$LshTable@E@lsh@cvflann@@QEAA@II@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/lib/opencv/build/include/opencv2/flann/lsh_table.h"
+                },
+                "region": {
+                  "startLine": 360,
+                  "startColumn": 28,
+                  "endLine": 360,
+                  "endColumn": 43
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0?$LshTable@E@lsh@cvflann@@QEAA@II@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'cvflann::lsh::LshStats::bucket_size_max_' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/lib/opencv/build/include/opencv2/flann/lsh_table.h"
+                },
+                "region": {
+                  "startLine": 96,
+                  "startColumn": 1,
+                  "endLine": 96,
+                  "endColumn": 1
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0LshStats@lsh@cvflann@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": [],
+          "properties": {
+            "targetSymbol": "cvflann::lsh::LshStats::bucket_size_max_"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'cvflann::lsh::LshStats::bucket_size_std_dev' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/lib/opencv/build/include/opencv2/flann/lsh_table.h"
+                },
+                "region": {
+                  "startLine": 96,
+                  "startColumn": 1,
+                  "endLine": 96,
+                  "endColumn": 1
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0LshStats@lsh@cvflann@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": [],
+          "properties": {
+            "targetSymbol": "cvflann::lsh::LshStats::bucket_size_std_dev"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'cvflann::lsh::LshStats::bucket_size_min_' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/lib/opencv/build/include/opencv2/flann/lsh_table.h"
+                },
+                "region": {
+                  "startLine": 96,
+                  "startColumn": 1,
+                  "endLine": 96,
+                  "endColumn": 1
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0LshStats@lsh@cvflann@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": [],
+          "properties": {
+            "targetSymbol": "cvflann::lsh::LshStats::bucket_size_min_"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'cvflann::lsh::LshStats::bucket_size_median_' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/lib/opencv/build/include/opencv2/flann/lsh_table.h"
+                },
+                "region": {
+                  "startLine": 96,
+                  "startColumn": 1,
+                  "endLine": 96,
+                  "endColumn": 1
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0LshStats@lsh@cvflann@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": [],
+          "properties": {
+            "targetSymbol": "cvflann::lsh::LshStats::bucket_size_median_"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'cvflann::lsh::LshStats::bucket_size_mean_' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/lib/opencv/build/include/opencv2/flann/lsh_table.h"
+                },
+                "region": {
+                  "startLine": 96,
+                  "startColumn": 1,
+                  "endLine": 96,
+                  "endColumn": 1
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0LshStats@lsh@cvflann@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": [],
+          "properties": {
+            "targetSymbol": "cvflann::lsh::LshStats::bucket_size_mean_"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'cvflann::lsh::LshStats::n_buckets_' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/lib/opencv/build/include/opencv2/flann/lsh_table.h"
+                },
+                "region": {
+                  "startLine": 96,
+                  "startColumn": 1,
+                  "endLine": 96,
+                  "endColumn": 1
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0LshStats@lsh@cvflann@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": [],
+          "properties": {
+            "targetSymbol": "cvflann::lsh::LshStats::n_buckets_"
+          }
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/lib/opencv/build/include/opencv2/imgproc.hpp"
+                },
+                "region": {
+                  "startLine": 4768,
+                  "startColumn": 12,
+                  "endLine": 4768,
+                  "endColumn": 36
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??ELineIterator@cv@@QEAAAEAV01@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/lib/opencv/build/include/opencv2/imgproc.hpp"
+                },
+                "region": {
+                  "startLine": 4785,
+                  "startColumn": 33,
+                  "endLine": 4785,
+                  "endColumn": 37
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?pos@LineIterator@cv@@QEBA?AV?$Point_@H@2@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/lib/opencv/build/include/opencv2/objdetect.hpp"
+                },
+                "region": {
+                  "startLine": 127,
+                  "startColumn": 37,
+                  "endLine": 127,
+                  "endColumn": 88
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??RSimilarRects@cv@@QEBA_NAEBV?$Rect_@H@1@0@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "The enum type 'cv::HOGDescriptor::HistogramNormType' is unscoped. Prefer 'enum class' over 'enum' (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/lib/opencv/build/include/opencv2/objdetect.hpp"
+                },
+                "region": {
+                  "startLine": 387,
+                  "startColumn": 26,
+                  "endLine": 387,
+                  "endColumn": 42
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0HOGDescriptor@cv@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "The enum type 'cv::DetectionBasedTracker::ObjectStatus' is unscoped. Prefer 'enum class' over 'enum' (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/lib/opencv/build/include/opencv2/objdetect/detection_based_tracker.hpp"
+                },
+                "region": {
+                  "startLine": 150,
+                  "startColumn": 13,
+                  "endLine": 150,
+                  "endColumn": 13
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0ExtObject@DetectionBasedTracker@cv@@QEAA@HV?$Rect_@H@2@W4ObjectStatus@12@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/lib/opencv/build/include/opencv2/core/cuda.inl.hpp"
+                },
+                "region": {
+                  "startLine": 301,
+                  "startColumn": 12,
+                  "endLine": 301,
+                  "endColumn": 12
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?elemSize@GpuMat@cuda@cv@@QEBA_KXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/lib/opencv/build/include/opencv2/core/cuda.inl.hpp"
+                },
+                "region": {
+                  "startLine": 301,
+                  "startColumn": 12,
+                  "endLine": 301,
+                  "endColumn": 12
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?elemSize@GpuMat@cuda@cv@@QEBA_KXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "The enum type 'cv::cuda::HostMem::AllocType' is unscoped. Prefer 'enum class' over 'enum' (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/lib/opencv/build/include/opencv2/core/cuda.inl.hpp"
+                },
+                "region": {
+                  "startLine": 391,
+                  "startColumn": 10,
+                  "endLine": 391,
+                  "endColumn": 10
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0HostMem@cuda@cv@@QEAA@W4AllocType@012@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/lib/opencv/build/include/opencv2/core/cuda.inl.hpp"
+                },
+                "region": {
+                  "startLine": 488,
+                  "startColumn": 12,
+                  "endLine": 488,
+                  "endColumn": 12
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?elemSize@HostMem@cuda@cv@@QEBA_KXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/lib/opencv/build/include/opencv2/core/cuda.inl.hpp"
+                },
+                "region": {
+                  "startLine": 488,
+                  "startColumn": 12,
+                  "endLine": 488,
+                  "endColumn": 12
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?elemSize@HostMem@cuda@cv@@QEBA_KXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "The enum type 'cv::cuda::FeatureSet' is unscoped. Prefer 'enum class' over 'enum' (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/lib/opencv/build/include/opencv2/core/cuda.inl.hpp"
+                },
+                "region": {
+                  "startLine": 611,
+                  "startColumn": 18,
+                  "endLine": 611,
+                  "endColumn": 18
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?supports@DeviceInfo@cuda@cv@@QEBA_NW4FeatureSet@23@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'cv::detail::RotationWarperBase<cv::detail::CompressedRectilinearProjector>::projector_' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/lib/opencv/build/include/opencv2/stitching/detail/warpers.hpp"
+                },
+                "region": {
+                  "startLine": 169,
+                  "startColumn": 1,
+                  "endLine": 169,
+                  "endColumn": 1
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0?$RotationWarperBase@UCompressedRectilinearProjector@detail@cv@@@detail@cv@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": [],
+          "properties": {
+            "targetSymbol": "cv::detail::RotationWarperBase<cv::detail::CompressedRectilinearProjector>::projector_"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'cv::detail::RotationWarperBase<cv::detail::CompressedRectilinearPortraitProjector>::projector_' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/lib/opencv/build/include/opencv2/stitching/detail/warpers.hpp"
+                },
+                "region": {
+                  "startLine": 169,
+                  "startColumn": 1,
+                  "endLine": 169,
+                  "endColumn": 1
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0?$RotationWarperBase@UCompressedRectilinearPortraitProjector@detail@cv@@@detail@cv@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": [],
+          "properties": {
+            "targetSymbol": "cv::detail::RotationWarperBase<cv::detail::CompressedRectilinearPortraitProjector>::projector_"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'cv::detail::RotationWarperBase<cv::detail::PaniniProjector>::projector_' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/lib/opencv/build/include/opencv2/stitching/detail/warpers.hpp"
+                },
+                "region": {
+                  "startLine": 169,
+                  "startColumn": 1,
+                  "endLine": 169,
+                  "endColumn": 1
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0?$RotationWarperBase@UPaniniProjector@detail@cv@@@detail@cv@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": [],
+          "properties": {
+            "targetSymbol": "cv::detail::RotationWarperBase<cv::detail::PaniniProjector>::projector_"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'cv::detail::RotationWarperBase<cv::detail::PaniniPortraitProjector>::projector_' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/lib/opencv/build/include/opencv2/stitching/detail/warpers.hpp"
+                },
+                "region": {
+                  "startLine": 169,
+                  "startColumn": 1,
+                  "endLine": 169,
+                  "endColumn": 1
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0?$RotationWarperBase@UPaniniPortraitProjector@detail@cv@@@detail@cv@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": [],
+          "properties": {
+            "targetSymbol": "cv::detail::RotationWarperBase<cv::detail::PaniniPortraitProjector>::projector_"
+          }
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "The enum type 'cv::detail::DpSeamFinder::CostFunction' is unscoped. Prefer 'enum class' over 'enum' (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/lib/opencv/build/include/opencv2/stitching/detail/seam_finders.hpp"
+                },
+                "region": {
+                  "startLine": 128,
+                  "startColumn": 41,
+                  "endLine": 128,
+                  "endColumn": 48
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?costFunction@DpSeamFinder@detail@cv@@QEBA?AW4CostFunction@123@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "The enum type 'cv::InterpolationFlags' is unscoped. Prefer 'enum class' over 'enum' (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/lib/opencv/build/include/opencv2/stitching.hpp"
+                },
+                "region": {
+                  "startLine": 201,
+                  "startColumn": 61,
+                  "endLine": 201,
+                  "endColumn": 68
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?interpolationFlags@Stitcher@cv@@QEBA?AW4InterpolationFlags@2@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "The enum type 'cv::detail::WaveCorrectKind' is unscoped. Prefer 'enum class' over 'enum' (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/lib/opencv/build/include/opencv2/stitching.hpp"
+                },
+                "region": {
+                  "startLine": 204,
+                  "startColumn": 55,
+                  "endLine": 204,
+                  "endColumn": 62
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?waveCorrectKind@Stitcher@cv@@QEBA?AW4WaveCorrectKind@detail@2@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Yolo_v4/darknet/include/yolo_v2_class.hpp"
+                },
+                "region": {
+                  "startLine": 176,
+                  "startColumn": 36,
+                  "endLine": 176,
+                  "endColumn": 40
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?make_image_custom@Detector@@CA?AUimage_t@@HHH@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Yolo_v4/darknet/include/yolo_v2_class.hpp"
+                },
+                "region": {
+                  "startLine": 176,
+                  "startColumn": 36,
+                  "endLine": 176,
+                  "endColumn": 38
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?make_image_custom@Detector@@CA?AUimage_t@@HHH@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C6387",
+          "message": {
+            "text": "'tmp_buf' could be '0':  this does not adhere to the specification for the function 'sprintf'. "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Yolo_v4/darknet/include/yolo_v2_class.hpp"
+                },
+                "region": {
+                  "startLine": 194,
+                  "startColumn": 13,
+                  "endLine": 194,
+                  "endColumn": 75
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?send_json_http@Detector@@QEAA_NV?$vector@Ubbox_t@@V?$allocator@Ubbox_t@@@std@@@std@@V?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@3@HV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@3@HH@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "index": 0,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Yolo_v4/darknet/include/yolo_v2_class.hpp"
+                          },
+                          "region": {
+                            "startLine": 187,
+                            "startColumn": 21
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 1,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Yolo_v4/darknet/include/yolo_v2_class.hpp"
+                          },
+                          "region": {
+                            "startLine": 189,
+                            "startColumn": 14
+                          }
+                        },
+                        "message": {
+                          "text": "'tmp_buf' may be NULL"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "index": 2,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Yolo_v4/darknet/include/yolo_v2_class.hpp"
+                          },
+                          "region": {
+                            "startLine": 190,
+                            "startColumn": 13
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this branch, (assume '!filename.empty()' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "index": 3,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Yolo_v4/darknet/include/yolo_v2_class.hpp"
+                          },
+                          "region": {
+                            "startLine": 194,
+                            "startColumn": 20
+                          }
+                        },
+                        "message": {
+                          "text": "'tmp_buf' is an Input to 'sprintf' (declared at c:\\program files (x86)\\windows kits\\10\\include\\10.0.19041.0\\ucrt\\stdio.h:1764)"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "index": 4,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Yolo_v4/darknet/include/yolo_v2_class.hpp"
+                          },
+                          "region": {
+                            "startLine": 194,
+                            "startColumn": 20
+                          }
+                        },
+                        "message": {
+                          "text": "'tmp_buf' should not be NULL, because this is not consistent with the SAL annotation on 'sprintf'"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C6387",
+          "message": {
+            "text": "'tmp_buf' could be '0':  this does not adhere to the specification for the function 'std::basic_string<char,std::char_traits<char>,std::allocator<char> >::='. See line 194 for an earlier location where this can occur"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Yolo_v4/darknet/include/yolo_v2_class.hpp"
+                },
+                "region": {
+                  "startLine": 196,
+                  "startColumn": 9,
+                  "endLine": 196,
+                  "endColumn": 20
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?send_json_http@Detector@@QEAA_NV?$vector@Ubbox_t@@V?$allocator@Ubbox_t@@@std@@@std@@V?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@3@HV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@3@HH@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "index": 0,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Yolo_v4/darknet/include/yolo_v2_class.hpp"
+                          },
+                          "region": {
+                            "startLine": 187,
+                            "startColumn": 21
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 1,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Yolo_v4/darknet/include/yolo_v2_class.hpp"
+                          },
+                          "region": {
+                            "startLine": 189,
+                            "startColumn": 14
+                          }
+                        },
+                        "message": {
+                          "text": "'tmp_buf' may be NULL"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "index": 2,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Yolo_v4/darknet/include/yolo_v2_class.hpp"
+                          },
+                          "region": {
+                            "startLine": 190,
+                            "startColumn": 13
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this branch, (assume '!filename.empty()' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "index": 3,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Yolo_v4/darknet/include/yolo_v2_class.hpp"
+                          },
+                          "region": {
+                            "startLine": 194,
+                            "startColumn": 20
+                          }
+                        },
+                        "message": {
+                          "text": "'tmp_buf' is an Input to 'sprintf' (declared at c:\\program files (x86)\\windows kits\\10\\include\\10.0.19041.0\\ucrt\\stdio.h:1764)"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "index": 4,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Yolo_v4/darknet/include/yolo_v2_class.hpp"
+                          },
+                          "region": {
+                            "startLine": 196,
+                            "startColumn": 18
+                          }
+                        },
+                        "message": {
+                          "text": "'tmp_buf' is an Input to 'std::basic_string<char,std::char_traits<char>,std::allocator<char> >::=' (declared at c:\\program files (x86)\\microsoft visual studio\\2019\\community\\vc\\tools\\msvc\\14.28.29333\\include\\xstring:2877)"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "index": 5,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Yolo_v4/darknet/include/yolo_v2_class.hpp"
+                          },
+                          "region": {
+                            "startLine": 196,
+                            "startColumn": 18
+                          }
+                        },
+                        "message": {
+                          "text": "'tmp_buf' should not be NULL, because this is not consistent with the SAL annotation on 'std::basic_string<char,std::char_traits<char>,std::allocator<char> >::='"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C6387",
+          "message": {
+            "text": "'buf' could be '0':  this does not adhere to the specification for the function 'sprintf'. "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Yolo_v4/darknet/include/yolo_v2_class.hpp"
+                },
+                "region": {
+                  "startLine": 202,
+                  "startColumn": 20
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?send_json_http@Detector@@QEAA_NV?$vector@Ubbox_t@@V?$allocator@Ubbox_t@@@std@@@std@@V?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@3@HV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@3@HH@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "index": 0,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Yolo_v4/darknet/include/yolo_v2_class.hpp"
+                          },
+                          "region": {
+                            "startLine": 187,
+                            "startColumn": 21
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 1,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Yolo_v4/darknet/include/yolo_v2_class.hpp"
+                          },
+                          "region": {
+                            "startLine": 189,
+                            "startColumn": 14
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 2,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Yolo_v4/darknet/include/yolo_v2_class.hpp"
+                          },
+                          "region": {
+                            "startLine": 190,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 3,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Yolo_v4/darknet/include/yolo_v2_class.hpp"
+                          },
+                          "region": {
+                            "startLine": 194,
+                            "startColumn": 20
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 4,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Yolo_v4/darknet/include/yolo_v2_class.hpp"
+                          },
+                          "region": {
+                            "startLine": 196,
+                            "startColumn": 18
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 5,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Yolo_v4/darknet/include/yolo_v2_class.hpp"
+                          },
+                          "region": {
+                            "startLine": 197,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 6,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Yolo_v4/darknet/include/yolo_v2_class.hpp"
+                          },
+                          "region": {
+                            "startLine": 199,
+                            "startColumn": 25
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 7,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Yolo_v4/darknet/include/yolo_v2_class.hpp"
+                          },
+                          "region": {
+                            "startLine": 199,
+                            "startColumn": 19
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 8,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Yolo_v4/darknet/include/yolo_v2_class.hpp"
+                          },
+                          "region": {
+                            "startLine": 200,
+                            "startColumn": 18
+                          }
+                        },
+                        "message": {
+                          "text": "'buf' may be NULL"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "index": 9,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Yolo_v4/darknet/include/yolo_v2_class.hpp"
+                          },
+                          "region": {
+                            "startLine": 202,
+                            "startColumn": 20
+                          }
+                        },
+                        "message": {
+                          "text": "'buf' is an Input to 'sprintf' (declared at c:\\program files (x86)\\windows kits\\10\\include\\10.0.19041.0\\ucrt\\stdio.h:1764)"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "index": 10,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Yolo_v4/darknet/include/yolo_v2_class.hpp"
+                          },
+                          "region": {
+                            "startLine": 202,
+                            "startColumn": 20
+                          }
+                        },
+                        "message": {
+                          "text": "'buf' should not be NULL, because this is not consistent with the SAL annotation on 'sprintf'"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C6387",
+          "message": {
+            "text": "'buf' could be '0':  this does not adhere to the specification for the function 'std::basic_string<char,std::char_traits<char>,std::allocator<char> >::+='. See line 202 for an earlier location where this can occur"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Yolo_v4/darknet/include/yolo_v2_class.hpp"
+                },
+                "region": {
+                  "startLine": 208,
+                  "startColumn": 13,
+                  "endLine": 208,
+                  "endColumn": 25
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?send_json_http@Detector@@QEAA_NV?$vector@Ubbox_t@@V?$allocator@Ubbox_t@@@std@@@std@@V?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@3@HV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@3@HH@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "index": 0,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Yolo_v4/darknet/include/yolo_v2_class.hpp"
+                          },
+                          "region": {
+                            "startLine": 187,
+                            "startColumn": 21
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 1,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Yolo_v4/darknet/include/yolo_v2_class.hpp"
+                          },
+                          "region": {
+                            "startLine": 189,
+                            "startColumn": 14
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 2,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Yolo_v4/darknet/include/yolo_v2_class.hpp"
+                          },
+                          "region": {
+                            "startLine": 190,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 3,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Yolo_v4/darknet/include/yolo_v2_class.hpp"
+                          },
+                          "region": {
+                            "startLine": 194,
+                            "startColumn": 20
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 4,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Yolo_v4/darknet/include/yolo_v2_class.hpp"
+                          },
+                          "region": {
+                            "startLine": 196,
+                            "startColumn": 18
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 5,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Yolo_v4/darknet/include/yolo_v2_class.hpp"
+                          },
+                          "region": {
+                            "startLine": 197,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 6,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Yolo_v4/darknet/include/yolo_v2_class.hpp"
+                          },
+                          "region": {
+                            "startLine": 199,
+                            "startColumn": 25
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 7,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Yolo_v4/darknet/include/yolo_v2_class.hpp"
+                          },
+                          "region": {
+                            "startLine": 199,
+                            "startColumn": 19
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 8,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Yolo_v4/darknet/include/yolo_v2_class.hpp"
+                          },
+                          "region": {
+                            "startLine": 200,
+                            "startColumn": 18
+                          }
+                        },
+                        "message": {
+                          "text": "'buf' may be NULL"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "index": 9,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Yolo_v4/darknet/include/yolo_v2_class.hpp"
+                          },
+                          "region": {
+                            "startLine": 202,
+                            "startColumn": 20
+                          }
+                        },
+                        "message": {
+                          "text": "'buf' is an Input to 'sprintf' (declared at c:\\program files (x86)\\windows kits\\10\\include\\10.0.19041.0\\ucrt\\stdio.h:1764)"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "index": 10,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Yolo_v4/darknet/include/yolo_v2_class.hpp"
+                          },
+                          "region": {
+                            "startLine": 208,
+                            "startColumn": 22
+                          }
+                        },
+                        "message": {
+                          "text": "'buf' is an Input to 'std::basic_string<char,std::char_traits<char>,std::allocator<char> >::+=' (declared at c:\\program files (x86)\\microsoft visual studio\\2019\\community\\vc\\tools\\msvc\\14.28.29333\\include\\xstring:2900)"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "index": 11,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Yolo_v4/darknet/include/yolo_v2_class.hpp"
+                          },
+                          "region": {
+                            "startLine": 208,
+                            "startColumn": 22
+                          }
+                        },
+                        "message": {
+                          "text": "'buf' should not be NULL, because this is not consistent with the SAL annotation on 'std::basic_string<char,std::char_traits<char>,std::allocator<char> >::+='"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'preview_boxes_t::preview_box_track_t::bbox' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Yolo_v4/darknet/include/yolo_v2_class.hpp"
+                },
+                "region": {
+                  "startLine": 572,
+                  "startColumn": 9,
+                  "endLine": 572,
+                  "endColumn": 9
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0preview_box_track_t@preview_boxes_t@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": [],
+          "properties": {
+            "targetSymbol": "preview_boxes_t::preview_box_track_t::bbox"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'track_kalman_t::tst_t::detection_count' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Yolo_v4/darknet/include/yolo_v2_class.hpp"
+                },
+                "region": {
+                  "startLine": 715,
+                  "startColumn": 9,
+                  "endLine": 715,
+                  "endColumn": 9
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0tst_t@track_kalman_t@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": [],
+          "properties": {
+            "targetSymbol": "track_kalman_t::tst_t::detection_count"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'track_kalman_t::dT' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Yolo_v4/darknet/include/yolo_v2_class.hpp"
+                },
+                "region": {
+                  "startLine": 853,
+                  "startColumn": 5,
+                  "endLine": 853,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0track_kalman_t@@QEAA@HHMV?$Size_@H@cv@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": [],
+          "properties": {
+            "targetSymbol": "track_kalman_t::dT"
+          }
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "The enum type 'cvflann::lsh::LshTable<unsigned char>::SpeedLevel' is unscoped. Prefer 'enum class' over 'enum' (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/lib/opencv/build/include/opencv2/flann/lsh_table.h"
+                },
+                "region": {
+                  "startLine": 279,
+                  "startColumn": 9,
+                  "endLine": 279,
+                  "endColumn": 24
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?initialize@?$LshTable@E@lsh@cvflann@@AEAAX_K@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C6269",
+          "message": {
+            "text": "Possibly incorrect order of operations:  dereference ignored."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/lib/opencv/build/include/opencv2/flann/any.h"
+                },
+                "region": {
+                  "startLine": 97,
+                  "startColumn": 10,
+                  "endLine": 97,
+                  "endColumn": 33
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?move@?$big_any_policy@W4flann_algorithm_t@cvflann@@@anyimpl@cvflann@@UEAAXPEBQEAXPEAPEAX@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C6269",
+          "message": {
+            "text": "Possibly incorrect order of operations:  dereference ignored."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/lib/opencv/build/include/opencv2/flann/any.h"
+                },
+                "region": {
+                  "startLine": 97,
+                  "startColumn": 10,
+                  "endLine": 97,
+                  "endColumn": 33
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?move@?$big_any_policy@W4flann_centers_init_t@cvflann@@@anyimpl@cvflann@@UEAAXPEBQEAXPEAPEAX@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'cv::AutoBuffer<__int64,1>::buf' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/lib/opencv/build/include/opencv2/core/utility.hpp"
+                },
+                "region": {
+                  "startLine": 950,
+                  "startColumn": 30,
+                  "endLine": 950,
+                  "endColumn": 30
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0?$AutoBuffer@_J$00@cv@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": [],
+          "properties": {
+            "targetSymbol": "cv::AutoBuffer<__int64,1>::buf"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'cv::AutoBuffer<double,1>::buf' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/lib/opencv/build/include/opencv2/core/utility.hpp"
+                },
+                "region": {
+                  "startLine": 950,
+                  "startColumn": 30,
+                  "endLine": 950,
+                  "endColumn": 30
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0?$AutoBuffer@N$00@cv@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": [],
+          "properties": {
+            "targetSymbol": "cv::AutoBuffer<double,1>::buf"
+          }
+        },
+        {
+          "ruleId": "C6294",
+          "message": {
+            "text": "Ill-defined for-loop:  initial condition does not satisfy test.  Loop body not executed."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/lib/opencv/build/include/opencv2/core/matx.hpp"
+                },
+                "region": {
+                  "startLine": 561,
+                  "startColumn": 5,
+                  "endLine": 561,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0?$Matx@M$02$00@cv@@QEAA@MMM@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C6201",
+          "message": {
+            "text": "Index '3' is out of valid index range '0' to '2' for possibly stack allocated buffer 'this->val'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/lib/opencv/build/include/opencv2/core/matx.hpp"
+                },
+                "region": {
+                  "startLine": 561,
+                  "startColumn": 39,
+                  "endLine": 561,
+                  "endColumn": 44
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0?$Matx@M$02$00@cv@@QEAA@MMM@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C6294",
+          "message": {
+            "text": "Ill-defined for-loop:  initial condition does not satisfy test.  Loop body not executed."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/lib/opencv/build/include/opencv2/core/matx.hpp"
+                },
+                "region": {
+                  "startLine": 561,
+                  "startColumn": 5,
+                  "endLine": 561,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0?$Matx@N$02$00@cv@@QEAA@NNN@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C6201",
+          "message": {
+            "text": "Index '3' is out of valid index range '0' to '2' for possibly stack allocated buffer 'this->val'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/lib/opencv/build/include/opencv2/core/matx.hpp"
+                },
+                "region": {
+                  "startLine": 561,
+                  "startColumn": 39,
+                  "endLine": 561,
+                  "endColumn": 44
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0?$Matx@N$02$00@cv@@QEAA@NNN@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C6294",
+          "message": {
+            "text": "Ill-defined for-loop:  initial condition does not satisfy test.  Loop body not executed."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/lib/opencv/build/include/opencv2/core/matx.hpp"
+                },
+                "region": {
+                  "startLine": 553,
+                  "startColumn": 5,
+                  "endLine": 553,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0?$Matx@M$01$00@cv@@QEAA@MM@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C6201",
+          "message": {
+            "text": "Index '2' is out of valid index range '0' to '1' for possibly stack allocated buffer 'this->val'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/lib/opencv/build/include/opencv2/core/matx.hpp"
+                },
+                "region": {
+                  "startLine": 553,
+                  "startColumn": 39,
+                  "endLine": 553,
+                  "endColumn": 44
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0?$Matx@M$01$00@cv@@QEAA@MM@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C6294",
+          "message": {
+            "text": "Ill-defined for-loop:  initial condition does not satisfy test.  Loop body not executed."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/lib/opencv/build/include/opencv2/core/matx.hpp"
+                },
+                "region": {
+                  "startLine": 553,
+                  "startColumn": 5,
+                  "endLine": 553,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0?$Matx@N$01$00@cv@@QEAA@NN@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C6201",
+          "message": {
+            "text": "Index '2' is out of valid index range '0' to '1' for possibly stack allocated buffer 'this->val'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/lib/opencv/build/include/opencv2/core/matx.hpp"
+                },
+                "region": {
+                  "startLine": 553,
+                  "startColumn": 39,
+                  "endLine": 553,
+                  "endColumn": 44
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0?$Matx@N$01$00@cv@@QEAA@NN@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C6294",
+          "message": {
+            "text": "Ill-defined for-loop:  initial condition does not satisfy test.  Loop body not executed."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/lib/opencv/build/include/opencv2/core/matx.hpp"
+                },
+                "region": {
+                  "startLine": 569,
+                  "startColumn": 5,
+                  "endLine": 569,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0?$Matx@M$03$00@cv@@QEAA@MMMM@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C6201",
+          "message": {
+            "text": "Index '4' is out of valid index range '0' to '3' for possibly stack allocated buffer 'this->val'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/lib/opencv/build/include/opencv2/core/matx.hpp"
+                },
+                "region": {
+                  "startLine": 569,
+                  "startColumn": 39,
+                  "endLine": 569,
+                  "endColumn": 44
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0?$Matx@M$03$00@cv@@QEAA@MMMM@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C6294",
+          "message": {
+            "text": "Ill-defined for-loop:  initial condition does not satisfy test.  Loop body not executed."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/lib/opencv/build/include/opencv2/core/matx.hpp"
+                },
+                "region": {
+                  "startLine": 569,
+                  "startColumn": 5,
+                  "endLine": 569,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0?$Matx@N$03$00@cv@@QEAA@NNNN@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C6201",
+          "message": {
+            "text": "Index '4' is out of valid index range '0' to '3' for possibly stack allocated buffer 'this->val'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/lib/opencv/build/include/opencv2/core/matx.hpp"
+                },
+                "region": {
+                  "startLine": 569,
+                  "startColumn": 39,
+                  "endLine": 569,
+                  "endColumn": 44
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0?$Matx@N$03$00@cv@@QEAA@NNNN@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.28.29335.0"
+        }
+      },
+      "invocations": [
+        {
+          "commandLine": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.28.29333\\bin\\HostX86\\x64\\c1xx.dll\" -ACf{1F7B090C-16DB-4822-966A-A93D26ED4681} -ACpmspft140.dll -Alint -D_PREFAST_ -D_AST_FE_ -Analyze -zm0x004EB1D0 -il C:\\Users\\Work\\AppData\\Local\\Temp\\_CL_d3c0171cast -typedil -f HawkEye-BaseballBat.cpp -Ze -D_MSC_EXTENSIONS -Zp16 -pc \\:/ -D_MSC_VER=1928 -D_MSC_FULL_VER=192829335 -D_MSC_BUILD=0 -D_M_AMD64=100 -ZILP448 -D_M_X64=100 -D_WIN64 -D_WIN32 -GR -D_CPPRTTI -I C:\\lib\\opencv\\build\\include -I C:\\Yolo_v4\\darknet\\include -nologo -W 3 -diagnostics:column -D_GUARDOVERFLOW_CRT_ALLOCATORS=1 -Ot -DCODE_ANALYSIS -D_CRT_SECURE_NO_WARNINGS -D_DEBUG -D_CONSOLE -D_UNICODE -DUNICODE -EHs -D_CPPUNWIND -EHc -D__MSVC_RUNTIME_CHECKS -RTCs -RTCu -MDd -D_DEBUG -D_MT -D_DLL -GS -D_M_FP_PRECISE -permissive- -Zc:wchar_t -Zc:forScope -std:c++17 -Fox64\\Debug\\HawkEye-BaseballBat.obj -Fdx64\\Debug\\vc142.pdb -Gd -analyze:projectdirectory C:\\Users\\Work\\source\\repos\\HawkEye-BaseballBat\\HawkEye-BaseballBat -analyze:rulesetdirectory ;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Team Tools\\Static Analysis Tools\\\\Rule Sets; -analyze:ruleset C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Team Tools\\Static Analysis Tools\\Rule Sets\\NativeRecommendedRules.ruleset -analyze:quiet -analyze:plugin C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.28.29333\\bin\\HostX86\\x86\\EspXEngine.dll -FC -errorreport:prompt -I C:\\Yolo_v4\\vcpkg\\packages\\pthreads_x64-windows\\include -I C:\\Yolo_v4\\darknet\\include -I C:\\lib\\opencv\\build\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.28.29333\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.28.29333\\atlmfc\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Auxiliary\\VS\\include -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\um -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\shared -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt -I C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.8\\Include\\um",
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///C:/lib/opencv/build/include/opencv2/core/base.hpp"
+          },
+          "roles": [
+            "resultFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///C:/lib/opencv/build/include/opencv2/core/mat.hpp"
+          },
+          "roles": [
+            "resultFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///C:/lib/opencv/build/include/opencv2/core/mat.inl.hpp"
+          },
+          "roles": [
+            "resultFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///C:/lib/opencv/build/include/opencv2/core/operations.hpp"
+          },
+          "roles": [
+            "resultFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///C:/lib/opencv/build/include/opencv2/core/utility.hpp"
+          },
+          "roles": [
+            "resultFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///C:/lib/opencv/build/include/opencv2/core/async.hpp"
+          },
+          "roles": [
+            "resultFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///C:/lib/opencv/build/include/opencv2/dnn/dnn.inl.hpp"
+          },
+          "roles": [
+            "resultFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///C:/lib/opencv/build/include/opencv2/flann/matrix.h"
+          },
+          "roles": [
+            "resultFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///C:/lib/opencv/build/include/opencv2/flann/saving.h"
+          },
+          "roles": [
+            "resultFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///C:/lib/opencv/build/include/opencv2/flann/kdtree_index.h"
+          },
+          "roles": [
+            "resultFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///C:/lib/opencv/build/include/opencv2/flann/kmeans_index.h"
+          },
+          "roles": [
+            "resultFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///C:/lib/opencv/build/include/opencv2/flann/lsh_table.h"
+          },
+          "roles": [
+            "resultFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///C:/lib/opencv/build/include/opencv2/imgproc.hpp"
+          },
+          "roles": [
+            "resultFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///C:/lib/opencv/build/include/opencv2/objdetect.hpp"
+          },
+          "roles": [
+            "resultFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///C:/lib/opencv/build/include/opencv2/objdetect/detection_based_tracker.hpp"
+          },
+          "roles": [
+            "resultFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///C:/lib/opencv/build/include/opencv2/core/cuda.inl.hpp"
+          },
+          "roles": [
+            "resultFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///C:/lib/opencv/build/include/opencv2/stitching/detail/warpers.hpp"
+          },
+          "roles": [
+            "resultFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///C:/lib/opencv/build/include/opencv2/stitching/detail/seam_finders.hpp"
+          },
+          "roles": [
+            "resultFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///C:/lib/opencv/build/include/opencv2/stitching.hpp"
+          },
+          "roles": [
+            "resultFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Yolo_v4/darknet/include/yolo_v2_class.hpp"
+          },
+          "roles": [
+            "resultFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///C:/lib/opencv/build/include/opencv2/flann/any.h"
+          },
+          "roles": [
+            "resultFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///C:/lib/opencv/build/include/opencv2/core/matx.hpp"
+          },
+          "roles": [
+            "resultFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/work/source/repos/hawkeye-baseballbat/hawkeye-baseballbat/hawkeye-baseballbat.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/lib/opencv/build/include/opencv2/opencv.hpp"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/lib/opencv/build/include/opencv2/opencv_modules.hpp"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/lib/opencv/build/include/opencv2/core.hpp"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/lib/opencv/build/include/opencv2/core/cvdef.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/lib/opencv/build/include/opencv2/core/hal/interface.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/lib/opencv/build/include/opencv2/core/cv_cpu_dispatch.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/lib/opencv/build/include/opencv2/core/version.hpp"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/lib/opencv/build/include/opencv2/core/cvstd.hpp"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/lib/opencv/build/include/opencv2/core/cvstd_wrapper.hpp"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/lib/opencv/build/include/opencv2/core/neon_utils.hpp"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/lib/opencv/build/include/opencv2/core/vsx_utils.hpp"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/lib/opencv/build/include/opencv2/core/check.hpp"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/lib/opencv/build/include/opencv2/core/traits.hpp"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/lib/opencv/build/include/opencv2/core/saturate.hpp"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/lib/opencv/build/include/opencv2/core/fast_math.hpp"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/lib/opencv/build/include/opencv2/core/types.hpp"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/lib/opencv/build/include/opencv2/core/bufferpool.hpp"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/lib/opencv/build/include/opencv2/core/persistence.hpp"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/lib/opencv/build/include/opencv2/core/cvstd.inl.hpp"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/lib/opencv/build/include/opencv2/core/optim.hpp"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/lib/opencv/build/include/opencv2/core/ovx.hpp"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/lib/opencv/build/include/opencv2/calib3d.hpp"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/lib/opencv/build/include/opencv2/features2d.hpp"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/lib/opencv/build/include/opencv2/flann/miniflann.hpp"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/lib/opencv/build/include/opencv2/flann/defines.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/lib/opencv/build/include/opencv2/flann/config.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/lib/opencv/build/include/opencv2/core/affine.hpp"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/lib/opencv/build/include/opencv2/dnn.hpp"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/lib/opencv/build/include/opencv2/dnn/dnn.hpp"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/lib/opencv/build/include/opencv2/dnn/version.hpp"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/lib/opencv/build/include/opencv2/dnn/dict.hpp"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/lib/opencv/build/include/opencv2/dnn/layer.hpp"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/lib/opencv/build/include/opencv2/dnn/utils/inference_engine.hpp"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/lib/opencv/build/include/opencv2/flann.hpp"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/lib/opencv/build/include/opencv2/flann/flann_base.hpp"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/lib/opencv/build/include/opencv2/flann/general.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/lib/opencv/build/include/opencv2/flann/params.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/lib/opencv/build/include/opencv2/flann/nn_index.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/lib/opencv/build/include/opencv2/flann/result_set.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/lib/opencv/build/include/opencv2/flann/all_indices.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/lib/opencv/build/include/opencv2/flann/dynamic_bitset.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/lib/opencv/build/include/opencv2/flann/dist.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/lib/opencv/build/include/opencv2/flann/heap.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/lib/opencv/build/include/opencv2/flann/allocator.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/lib/opencv/build/include/opencv2/flann/random.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/lib/opencv/build/include/opencv2/flann/kdtree_single_index.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/lib/opencv/build/include/opencv2/flann/logger.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/lib/opencv/build/include/opencv2/flann/composite_index.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/lib/opencv/build/include/opencv2/flann/linear_index.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/lib/opencv/build/include/opencv2/flann/hierarchical_clustering_index.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/lib/opencv/build/include/opencv2/flann/lsh_index.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/lib/opencv/build/include/opencv2/flann/autotuned_index.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/lib/opencv/build/include/opencv2/flann/ground_truth.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/lib/opencv/build/include/opencv2/flann/index_testing.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/lib/opencv/build/include/opencv2/flann/timer.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/lib/opencv/build/include/opencv2/flann/sampling.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/lib/opencv/build/include/opencv2/highgui.hpp"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/lib/opencv/build/include/opencv2/imgcodecs.hpp"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/lib/opencv/build/include/opencv2/videoio.hpp"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/lib/opencv/build/include/opencv2/ml.hpp"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/lib/opencv/build/include/opencv2/ml/ml.inl.hpp"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/lib/opencv/build/include/opencv2/photo.hpp"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/lib/opencv/build/include/opencv2/stitching/warpers.hpp"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/lib/opencv/build/include/opencv2/core/cuda.hpp"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/lib/opencv/build/include/opencv2/core/cuda_types.hpp"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/lib/opencv/build/include/opencv2/stitching/detail/warpers_inl.hpp"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/lib/opencv/build/include/opencv2/stitching/detail/matchers.hpp"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/lib/opencv/build/include/opencv2/stitching/detail/motion_estimators.hpp"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/lib/opencv/build/include/opencv2/stitching/detail/util.hpp"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/lib/opencv/build/include/opencv2/stitching/detail/util_inl.hpp"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/lib/opencv/build/include/opencv2/stitching/detail/camera.hpp"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/lib/opencv/build/include/opencv2/stitching/detail/exposure_compensate.hpp"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/lib/opencv/build/include/opencv2/stitching/detail/blenders.hpp"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/lib/opencv/build/include/opencv2/video.hpp"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/lib/opencv/build/include/opencv2/video/tracking.hpp"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/lib/opencv/build/include/opencv2/video/background_segm.hpp"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/lib/opencv/build/include/opencv2/highgui/highgui_c.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/lib/opencv/build/include/opencv2/core/core_c.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/lib/opencv/build/include/opencv2/core/types_c.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/lib/opencv/build/include/opencv2/imgproc/imgproc_c.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/lib/opencv/build/include/opencv2/imgproc/types_c.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        }
+      ]
+    }
+  ]
+}
